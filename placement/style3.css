@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url("zbg.jpg");
+  }
+  
+  /* Style the header */
+  .header {
+    
+    color: white;
+    width: 100%;
+  }
+  
+  /* Increase the font size of the h1 element */
+  .header h1 {
+    font-size: 40px;
+  }
+  .pec{
+      float: left;
+      position: relative;
+      margin: 5px 15px 7px 45px;
+  }
+  .tnp{
+      float: left;
+      position: relative;
+      margin: 5px 15px 15px 10px;
+  }
+  
+  .bg-div{
+     background:transparent;
+     overflow: hidden;
+     position: fixed;
+     width: 100%;
+  }
+  
+  
+  /* Style the top navigation bar */
+  
+  .navbar {
+    overflow: hidden;
+   
+    position: fixed;
+    top: 1.5%;
+   margin-left: 67%;
+  }
+  
+  
+  /* Style the navigation bar links */
+  .navbar a {
+      
+    float:right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: rgb(48, 134, 77);
+    color: black;
+  }
+  
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width:100%;
+    }
+  }
+  .zoho{
+      float: center;
+      margin-left: 43%;
+      margin-top: 1px;   
+  }
+  .p{
+      text-align: center;
+      margin-top: -67px;
+     
+  }
+  #college {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    margin-left: 25%;
+    color:white;
+  }
+  
+  #college td, #college th {
+   
+    padding: 8px;
+  }
+  
+  #college tr:hover {background-color:rgb(96, 96, 185)}
+  
+  #college th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:transparent;
+    color:white;
+  }
